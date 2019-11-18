@@ -1,3 +1,73 @@
 body{
     background-color: lightgrey;
 }
+
+body > nav  { 
+
+text-align: center;
+color:red;
+}
+
+body, html{
+
+    background-color: lightgrey;
+
+    margin: 0px;
+
+    padding: 0px;
+
+}
+
+ 
+
+ 
+
+ 
+
+body > nav  li {
+
+    margin: 0px;
+
+    padding-left: 15%;
+
+    font-size: 18px;
+
+    text-align: center;
+
+    padding: 0px;
+
+    float: center;
+
+    width: 150px;
+
+    
+
+}
+
+ 
+
+body > nav li a {
+
+    display: block;
+
+    color: rgb(50, 50, 50);
+
+    text-align: center;
+
+    padding: 30px 14px;
+
+    text-decoration: none;
+
+}
+
+ 
+
+body > nav li a:hover {
+
+    background-color: black;
+
+    color: bisque;
+
+}
+
+ 
