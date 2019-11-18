@@ -1,3 +1,9 @@
 body{
     background-color: lightgrey;
 }
+
+body > nav {
+    width: 100%;
+    text-align: center;
+    color: crimson;
+}
