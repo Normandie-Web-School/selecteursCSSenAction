@@ -8,3 +8,11 @@ body > nav {
     color: crimson;
     background-color: gold;
 }
+
+body > nav > ul > li > a{
+    background-color: red;
+}
+
+body > nav > ul > li > a:hover{
+    background-color: gold;
+    display: flex;
