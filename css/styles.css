@@ -7,8 +7,12 @@ h1{
     font-family: cursive;
 }
 #entete{
-    background-color: rgb(75, 131, 96)
+    background-color: cadetblue;
 }
 img{
     width: 100%;
+}
+header{
+    background-color: cadetblue;
+    color: beige;
 }
