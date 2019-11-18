@@ -1,3 +1,52 @@
-body{
+body, html{
     background-color: lightgrey;
+    margin: 0px;
+    padding: 0px;
 }
+
+body > nav{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    flex-wrap: nowrap;
+    margin-top: -1.5%;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    position: fixed;
+}
+
+
+body > nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+body > nav > li {
+    margin: 0px;
+    padding-left: 15%;
+    font-size: 18px;
+    text-align: center;
+    padding: 0px;
+    float: left;
+    width: 150px;
+    
+}
+
+li a {
+    display: block;
+    color: rgb(50, 50, 50);
+    text-align: center;
+    padding: 30px 14px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #00568B;
+    color: white;
+}
+
