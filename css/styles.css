@@ -1,3 +1,18 @@
 body{
     background-color: lightgrey;
 }
+h1{
+    text-align: center;
+    color: beige;
+    font-family: cursive;
+}
+#entete{
+    background-color: cadetblue;
+}
+img{
+    width: 100%;
+}
+header{
+    background-color: cadetblue;
+    color: beige;
+}
