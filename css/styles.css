@@ -1,3 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: lightgrey;
+}
+
+#entete h1
+{
+    color:purple;
+    font-family: 'Public Sans', sans-serif;
+   text-align: center;
+   top:10%;
+   align-items:center;
+   font-size: 50px;
+
+}
+
+img{
+    width:100%;
+ 
+}
+#entete{
+padding-top:15px;
+padding-left: 10%;
+padding-right: 10%;
+}
+
+p{
+    text-align: center;
+    font-family: 'Public Sans', sans-serif;
+   
+}
+h2,h3{
+    font-family: 'Public Sans', sans-serif;
+    color:black;
+  text-align: center; 
+  margin: 10px 0px;
+}
+.details
+{
+background-color: rgb(51, 5, 165);
+color: cornsilk;
+margin-left: 10%;
+margin-right: 10%;
+
+}
+.details > h3, p{
+    font-family: 'Public Sans', sans-serif;
+    padding: 10px 0px;
+    line-height: 0.5;
+}
+
+h3{
+    font-family: 'Public Sans', sans-serif;
+    color:#fff;
+    text-decoration:underline;
+}
+
+.fond{
+    justify-content: center;
+    align-items: center;
+}
+.reservation{
+    align-items:center;
+}
+#articles{
+    text-align: center;
+}
+
+
+.reservation > ul{
+    font-family: 'Public Sans', sans-serif;
+ display: flex;
+ flex-flow: row wrap;
+ align-items: center;
+ justify-content: center;
+}
+
+li{
+    font-family: 'Public Sans', sans-serif;
+    list-style: none;
+    padding: 0px 10px;
+}
+
+a{
+    font-family: 'Public Sans', sans-serif;
+    text-decoration:none;
+    color:purple;
+}
+
+a:hover{
+    text-decoration:none;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+}
+header>h3{
+   color: rgb(19, 140, 63)
+}
+section .complet{
+    background-color:  rgb(19, 140, 63);
 }
