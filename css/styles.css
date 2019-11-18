@@ -24,5 +24,18 @@ h2{
     text-align: center;
 }
 
+.mois{
+    border: solid 10px;
+    padding: 20px;
+}
+
+.complet{
+    color: red;
+}
+
+
+
+
+
 
 
