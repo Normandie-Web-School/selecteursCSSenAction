@@ -1,3 +1,29 @@
 body{
     background-color: lightgrey;
+    margin: 0%;
+    padding: 0%;
+}
+
+#navPrincipale {
+            background-color: crimson;
+            margin: 0%;
+}
+}
+
+body>nav>ul>li>a {
+
+            font-family: sans-serif;
+}
+
+section>article>header>h3 {
+            
+            font-family: sans-serif;
+            color : white;
+            text-align: center;
+            background-color: #e73743 ;
+}
+
+div>section>article>section>p {
+                    text-align: center;
+                    font-family: sans-serif;
 }
