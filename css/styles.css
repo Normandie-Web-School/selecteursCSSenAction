@@ -1,3 +1,8 @@
 body{
     background-color: lightgrey;
 }
+body > nav{
+text-align: center;
+background-color: royalblue;
+border: black;
+}
