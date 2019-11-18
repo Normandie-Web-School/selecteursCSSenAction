@@ -1,3 +1,44 @@
+*{
+    margin: 0px;
+  }
+
 body{
     background-color: lightgrey;
+}
+
+#concerts{
+    text-align: center;
+}
+
+h2{
+    background-color: lightsteelblue;
+}
+
+footer{
+    padding: 1%;
+}
+
+.details{
+    padding: 1%;
+}
+
+.reservation{
+    padding: 1%;
+}
+
+
+.promo{
+    border: solid 5px;
+    border-color: lime;
+    background-color: lightgreen;
+}
+
+.complet{
+    border: solid 5px;
+    border-color: red;
+    background-color: lightsalmon;
+}
+
+header > p{
+    text-align: center;
 }
