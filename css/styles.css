@@ -1,3 +1,8 @@
-body{
-    background-color: lightgrey;
+body {
+  background-color: white;
+}
+
+div#concerts > footer {
+  background-color: lightgrey;
+  text-align: center;
 }
