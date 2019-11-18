@@ -13,6 +13,40 @@ body > nav > ul > li > a{
     background-color: red;
 }
 
-body > nav > ul > li > a:hover{
-    background-color: gold;
-    display: flex;
+}
+nav {
+	padding: 0; margin: 0;
+	text-align: center; /* centrer le texte */
+}
+nav li {
+	display: inline;
+	list-style: none;
+}
+nav a {
+	display:inline-block;
+	margin: 0 30px;
+}
+
+
+li a {
+
+    font-family: 'Exo 2', sans-serif;
+
+    color: white;
+
+    padding: 40px 40px;
+
+    text-decoration: none;
+
+}
+
+ 
+
+li a:hover {
+
+    background-color: white;
+
+    color: black;
+    
+
+}
