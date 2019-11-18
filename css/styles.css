@@ -1,3 +1,10 @@
 body{
     background-color: lightgrey;
 }
+body > nav{
+text-align: center;
+background-color: royalblue;
+}
+header > p{
+text-align: center;
+}
