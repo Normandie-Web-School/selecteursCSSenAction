@@ -1,3 +1,36 @@
-body{
-    background-color: lightgrey;
+body {
+  background-color: white;
+}
+
+div#concerts > footer {
+  background-color: lightgrey;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+.navigation {
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+div#concerts > footer > ul {
+  list-style: none;
+  margin-top: 1%;
+}
+
+div#concerts > footer > ul > li {
+  display: inline-block;
+  background-color: gray;
+  padding: 1%;
+  margin-right: 2%;
+}
+
+a {
+  color: white;
+}
+
+li.btn {
+  margin-top: 5%;
 }
