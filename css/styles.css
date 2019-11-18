@@ -4,5 +4,7 @@ body{
 body > nav{
 text-align: center;
 background-color: royalblue;
-border: black;
+}
+header > p{
+text-align: center;
 }
