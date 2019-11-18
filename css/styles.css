@@ -1,3 +1,14 @@
 body{
     background-color: lightgrey;
 }
+h1{
+    text-align: center;
+    color: beige;
+    font-family: cursive;
+}
+#entete{
+    background-color: rgb(75, 131, 96)
+}
+img{
+    width: 100%;
+}
